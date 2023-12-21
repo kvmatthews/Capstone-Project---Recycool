@@ -21,9 +21,8 @@ preparation of raw data for machine learning. It involves cleaning, transforming
 
 ## Transfer Learning with MobileNetV2
 Transfer learning with MobileNetV2 involves leveraging a pre-trained neural network model called MobileNetV2 for a new task. MobileNetV2 is a deep learning architecture known for its efficiency and effectiveness in computer vision tasks, particularly on mobile and embedded devices
-###Training and validating dataset using Transfer Learning
 
-###Training and saving model
+### Training and saving model
 [![transferlearning](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/blob/machine_learning/asset/transfer_learning.png)](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/blob/machine_learning/asset/transfer_learning.png)
 
 

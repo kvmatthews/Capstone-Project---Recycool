@@ -37,7 +37,7 @@ in this phase we evaluate our model performance to classify unseen data.
 
 
 
-##Accuracy & Loss
+## Accuracy & Loss
 
 ### Model Accuracy
 [![model_acc](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/blob/machine_learning/asset/model_acc.png)](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/blob/machine_learning/asset/model_acc.png)

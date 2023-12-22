@@ -17,4 +17,6 @@ Here is our team Capstone Product Based repository for Bangkit 2023 Capstone pro
 | <div align="center">Ahmad Dhiyaul Wahid</div> | A283BSY2506 | Mobile Development | <div align="center">[LinkedIn](https://www.linkedin.com/in/ahmad-dhiyaul-wahid-958937200/) or [GitHub](https://github.com/wahidlangon)</div> |
 | <div align="center">Agustina Puspita Sari</div> | A009BSX2497 | Mobile Development | <div align="center">[LinkedIn](https://www.linkedin.com/in/agustina-puspita-sari) or [GitHub](https://github.com/asariia)</div> |
 
+## Project Description
 
+Recycool is an intuitive mobile application crafted to promote sustainable waste management. Our goal is to empower users to seamlessly embrace eco-friendly practices, actively participate in waste reduction, and make a meaningful, positive impact on the environment. Through Recycool, users can effortlessly adopt eco-friendly habits.

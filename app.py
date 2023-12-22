@@ -170,3 +170,4 @@ def delete_prediction(unique_id):
 # Run flask server
 if __name__ == '__main__':
     app.run(debug=True)
+    

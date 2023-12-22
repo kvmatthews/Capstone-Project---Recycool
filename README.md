@@ -1,5 +1,5 @@
 # Recycool - Flask API
-Using Flask to build an API from machine learning image classification model. This API then will be deployed using App Engine.
+Using Flask to build an API for a machine learning image classification model. This API will then be deployed using App Engine.
 
 ## How to Use
 ### Running API from local server
@@ -12,7 +12,7 @@ Using Flask to build an API from machine learning image classification model. Th
  ```
  pip install -r requirements.txt
  ```
- 4. Run with local server
+ 3. Run with local server
  ```
  flask run
  ```

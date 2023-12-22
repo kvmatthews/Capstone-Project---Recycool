@@ -20,3 +20,15 @@ Here is our team Capstone Product Based repository for Bangkit 2023 Capstone pro
 ## Project Description
 
 Recycool is an intuitive mobile application crafted to promote sustainable waste management. Our goal is to empower users to seamlessly embrace eco-friendly practices, actively participate in waste reduction, and make a meaningful, positive impact on the environment. Through Recycool, users can effortlessly adopt eco-friendly habits.
+
+## Documentation
+
+insert here
+
+## Repositories 
+
+|    Branch Name    | Branch Link |
+|:------------------:|:-----------:|
+| Machine Learning | [ML Branch](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/tree/machine_learning)   |
+| Cloud Computing    | [CC Branch](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/tree/cloud_computing)   |
+| Mobile Development   | [MD Branch](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/tree/mobile_development)   |

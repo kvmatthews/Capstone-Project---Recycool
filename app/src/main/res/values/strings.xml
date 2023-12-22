@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Recycool</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Save Your Account Now</string>
+    <string name="click_to_login">Login</string>
+
+    <string name="click_to_register">Register Now</string>
+    <string name="logout">\n</string>
+    <string name="email_or_username" />
+    <string name="loginword">Hello there Welcome Back</string>
+    <string name="earthadytext">Turn every day into Earth Day with our application</string>
+    <string name="reistertext">\"Every waste holds value, just like your life. Manage it with the app and find serenity.\"</string>
+</resources>

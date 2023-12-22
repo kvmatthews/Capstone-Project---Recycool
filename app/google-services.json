@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "962429783911",
+    "project_id": "recycool-be49e",
+    "storage_bucket": "recycool-be49e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962429783911:android:4497a7a4c62c2a4e6829c2",
+        "android_client_info": {
+          "package_name": "com.dicoding.recycoollogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBosAOxEycHp2OT8wGDSgcVw40lY0CdccI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

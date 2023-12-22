@@ -32,3 +32,13 @@ insert here
 | Machine Learning | [ML Branch](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/tree/machine_learning)   |
 | Cloud Computing    | [CC Branch](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/tree/cloud_computing)   |
 | Mobile Development   | [MD Branch](https://github.com/CH2-PS329-Recycool/Capstone-Project---Recycool/tree/mobile_development)   |
+
+## Dataset
+
+- [Dataset 1](https://www.kaggle.com/datasets/techsash/waste-classification-data)
+- [Dataset 2](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)
+- [Dataset 3](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)
+
+## UI/UX Design
+
+insert here

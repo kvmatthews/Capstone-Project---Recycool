@@ -91,4 +91,38 @@ GET `/recycool` - Request the submitted data.
 }
 ```
 
+---
+
+GET `/recycool/<unique_id>` - Retrieve a specific data using a GET request.
+
+#### Request 
+- **Method** : GET
+- **Path** : /recycool/<unique_id>
+
+```json
+{
+    "data": {
+        "ID": "5e7ba4dd-2f47-4588-8284-a2655bcf0ab8",
+        "accuracy": 0.9999951124191284,
+        "classification": "Organik",
+        "insertedAt": "2023-12-22 13:37:08"
+    },
+    "status": "Success"
+}
+```
+
+---
+
+DELETE `/recycool/<unique_id>` - Delete specific data.
+
+#### Request 
+- **Method** : DELETE
+- **Path** : /recycool/<unique_id>
+
+```json
+{
+    "message": "Deleted successfully",
+    "status": "Success"
+}
+```
 

@@ -48,7 +48,7 @@ then click on the link it provides.
 ## API Documentation
 
 ### Summary
-Base URL : [RECYCOOL](http://recycool-id.et.r.appspot.com/) / http://recycool-id.et.r.appspot.com/
+Base URL : http://recycool-id.et.r.appspot.com/ note that we set an idle timeout for every 10 minutes to prevent data from stacking up.
 
 Using [Postman](https://www.postman.com/) for testing APIs.
 

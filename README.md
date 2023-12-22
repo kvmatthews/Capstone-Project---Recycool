@@ -20,7 +20,7 @@ Using Flask to build an API for a machine learning image classification model. T
  ```
 ### Deployment
 
-In [Google Cloud Platform (GCP)](https://console.cloud.google.com/welcome)
+Inside [Google Cloud Platform (GCP)](https://console.cloud.google.com/welcome)
 
 #### Enable Google App Engine Admin API
 

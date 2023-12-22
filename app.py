@@ -8,7 +8,7 @@ import io
 
 
 # Model to Use
-predicted_results = []
+classification_result = []
 model_path = './models/MulticlassRecycool.h5'
 loaded_model = load_model(model_path)
 
@@ -28,8 +28,8 @@ def is_valid_uuid(val):
 # Building API
 @app.route('/')
 def index():
-    if predicted_results:
-        return jsonify(predicted_results)
+    if classification_result:
+        return jsonify(classification_result)
     else:
         return jsonify({"message": "No predictions available."})
 
@@ -38,10 +38,10 @@ def index():
 @app.route('/recycool', methods=['GET', 'POST'])
 def recycool():
     if request.method == 'GET':
-        if predicted_results:
+        if classification_result:
             response = {
                 'status': 'Success',
-                'data': predicted_results
+                'data': classification_result
             }
             return make_response(jsonify(response), 200)
         else:
@@ -85,22 +85,22 @@ def recycool():
 
             prediction = loaded_model.predict(img_normalized)
             predicted_class_index = np.argmax(prediction)
-            confidence_score = np.max(prediction)
+            accuracy = np.max(prediction)
 
             class_names = ['Kaca', 'Kardus', 'Kertas', 'Organik', 'Plastik']
-            predicted_class_name = class_names[predicted_class_index]
+            classification = class_names[predicted_class_index]
 
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             unique_id = str(uuid.uuid4())
 
-            prediction_result = {
+            classification_data = {
                 'ID': unique_id,
-                'predicted_class': predicted_class_name,
-                'confidence_score': float(confidence_score),
+                'classification': classification,
+                'accuracy': float(accuracy),
                 'insertedAt': timestamp
             }
 
-            predicted_results.append(prediction_result)
+            classification_result.append(classification_data)
 
             response = {
                 'status': 'success',
@@ -127,7 +127,7 @@ def get_prediction(unique_id):
         return make_response(jsonify(error_response), 400)
 
     found = False
-    for prediction in predicted_results:
+    for prediction in classification_result:
         if prediction['ID'] == unique_id:
             found = True
             response = {
@@ -147,11 +147,11 @@ def get_prediction(unique_id):
 # Delete Method
 @app.route('/recycool/<string:unique_id>', methods=['DELETE'])
 def delete_prediction(unique_id):
-    global predicted_results
+    global classification_result
 
-    initial_length = len(predicted_results)
-    predicted_results = [prediction for prediction in predicted_results if prediction['ID'] != unique_id]
-    final_length = len(predicted_results)
+    initial_length = len(classification_result)
+    classification_result = [prediction for prediction in classification_result if prediction['ID'] != unique_id]
+    final_length = len(classification_result)
 
     if final_length < initial_length:
         response = {

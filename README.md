@@ -33,10 +33,11 @@ gcloud app deploy
 ```
 ## API Documentation
 Base URL : http://recycool-id.et.r.appspot.com/
-| Column 1 Header | Column 2 Header | Column 3 Header |
+| Route | Methods | Descrition |
 | --------------- | --------------- | --------------- |
-| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
-| Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
+| /recycool    | POST    | Submit an image and perform image classification.    |
+| /recycool    | GET    | Request the submitted data.    |
+| /recycool/<unique_id>    | GET    | Retrieve a specific data using a GET request.    |
+| /recycool/<unique_id>    | DELETE    | Delete specific data.    |
 
 

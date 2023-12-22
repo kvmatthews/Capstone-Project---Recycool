@@ -47,6 +47,7 @@ then click on the link it provides.
 
 ### Summary
 Base URL : [RECYCOOL](http://recycool-id.et.r.appspot.com/)
+Using [Postman](https://www.postman.com/) for testing APIs.
 
 | Route | Methods | Descrition |
 | --------------- | --------------- | --------------- |

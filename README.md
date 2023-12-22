@@ -42,5 +42,6 @@ insert here
 ## UI/UX Design
 
 Prototype Design : https://www.figma.com/file/EXCas1zIHNVNcEfbh4KHGa/Project-Capstone-Recycool?type=design&node-id=0%3A1&mode=design&t=QYEYItsefMYwufDo-1
+
 Demo Video : https://drive.google.com/file/d/1SXoIuJ9_VEe3cp4w7ObP-9P_onrn2E-t/view?usp=sharing
 

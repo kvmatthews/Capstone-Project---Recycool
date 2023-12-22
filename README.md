@@ -63,7 +63,7 @@ POST `/recycool` - Submit an image and perform image classification.
 - **Method** : POST
 - **Path** : /recycool
 
-```
+```json
 {
     "message": "Image upload successfully",
     "status": "success"

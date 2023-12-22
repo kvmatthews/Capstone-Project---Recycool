@@ -27,10 +27,16 @@ Using Flask to build an API for a machine learning image classification model. T
 ```
 gcloud config set compute/region "REGION"
 ```
- 2. Deploy
+ 2. Deploy project
 ```
 gcloud app deploy
 ```
-
+## API Documentation
+Base URL : http://recycool-id.et.r.appspot.com/
+| Column 1 Header | Column 2 Header | Column 3 Header |
+| --------------- | --------------- | --------------- |
+| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+| Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
 
 

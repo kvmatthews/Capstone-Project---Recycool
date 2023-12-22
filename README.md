@@ -69,7 +69,7 @@ POST `/recycool` - Submit an image and perform image classification.
     "status": "success"
 }
 ```
-![POST](img_documentation/post)
+![POST](./img_documentation/post.png)
 
 ---
 
@@ -93,7 +93,7 @@ GET `/recycool` - Request the submitted data.
 }
 ```
 
-![GET](img_documentation/get)
+![GET](./img_documentation/get.png)
 
 ---
 
@@ -115,7 +115,7 @@ GET `/recycool/<unique_id>` - Retrieve a specific data using a GET request.
 }
 ```
 
-![GET ID](img_documentation/get_byid)
+![GET ID](./img_documentation/get_byid.png)
 
 ---
 
@@ -132,4 +132,4 @@ DELETE `/recycool/<unique_id>` - Delete specific data.
 }
 ```
 
-![DELETE](img_documentation/delete_byid)
+![DELETE](./img_documentation/delete_byid.png)

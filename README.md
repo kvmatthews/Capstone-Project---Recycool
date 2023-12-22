@@ -9,7 +9,7 @@ python3 -m venv env
 source env/bin/activate
 ```
 2. Install the package requirements
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 3. Run with local server
-`flask run`
+```flask run```
 

@@ -5,6 +5,8 @@
 Bangkit Capstone Team ID : **CH2-PS329**
 Here is our team Capstone Product Based repository for Bangkit 2023 Capstone project. Our team consist of 2 Mobile Development, 3 Machine Learning, and 2 Cloud Computing.
 
+## Our Team
+
 | Name                                | Bangkit ID     | Learning Path          | Contact Link    |
 | ----------------------------------- | -------------- | ---------------------- | --------------- |
 | <div align="center">Andre Gabriel Mongkareng</div> | M230BSY0615 | Machine Learning | <div align="center">[LinkedIn](https://www.linkedin.com/in/amongkareng/ ) or [GitHub](https://github.com/amongkareng)</div> |
@@ -14,4 +16,5 @@ Here is our team Capstone Product Based repository for Bangkit 2023 Capstone pro
 | <div align="center">Kevin Matthews Suma</div> | C230BSY4112 | Cloud Computing | <div align="center">[LinkedIn](https://www.linkedin.com/in/kevin-suma/) or [GitHub](https://github.com/kvmatthews)</div> |
 | <div align="center">Ahmad Dhiyaul Wahid</div> | A283BSY2506 | Mobile Development | <div align="center">[LinkedIn](https://www.linkedin.com/in/ahmad-dhiyaul-wahid-958937200/) or [GitHub](https://github.com/wahidlangon)</div> |
 | <div align="center">Agustina Puspita Sari</div> | A009BSX2497 | Mobile Development | <div align="center">[LinkedIn](https://www.linkedin.com/in/agustina-puspita-sari) or [GitHub](https://github.com/asariia)</div> |
+
 

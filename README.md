@@ -23,7 +23,7 @@ Recycool is an intuitive mobile application crafted to promote sustainable waste
 
 ## Documentation
 
-insert here
+![GET](./assets/Recycool_Features.png)
 
 ## Repositories 
 

@@ -5,7 +5,6 @@ Using Flask to build an API from machine learning image classification model. Th
 ### Running API from local server
 1. Create and activate the virtual environment
  ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+python3 -m venv env
+source env/bin/activate
 ```

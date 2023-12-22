@@ -60,7 +60,14 @@ Base URL : [RECYCOOL](http://recycool-id.et.r.appspot.com/)
 POST `/recycool` - Submit an image and perform image classification.
 
 #### Request 
-- Method : POST
-- Path : /recycool
+- **Method** : POST
+- **Path** : /recycool
+
+```
+{
+    "message": "Image upload successfully",
+    "status": "success"
+}
+```
 
 

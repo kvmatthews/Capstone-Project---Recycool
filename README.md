@@ -70,4 +70,24 @@ POST `/recycool` - Submit an image and perform image classification.
 }
 ```
 
+GET `/recycool` - Request the submitted data.
+
+#### Request 
+- **Method** : GET
+- **Path** : /recycool
+
+```json
+{
+    "data": [
+        {
+            "ID": "5e7ba4dd-2f47-4588-8284-a2655bcf0ab8",
+            "accuracy": 0.9999951124191284,
+            "classification": "Organik",
+            "insertedAt": "2023-12-22 13:37:08"
+        }
+    ],
+    "status": "Success"
+}
+```
+
 

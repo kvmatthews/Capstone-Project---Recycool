@@ -69,6 +69,8 @@ POST `/recycool` - Submit an image and perform image classification.
     "status": "success"
 }
 ```
+![POST](img_documentation/)
+
 ---
 
 GET `/recycool` - Request the submitted data.

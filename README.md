@@ -45,6 +45,7 @@ then click on the link it provides.
 
 ## API Documentation
 
+### Summary
 Base URL : [RECYCOOL](http://recycool-id.et.r.appspot.com/)
 
 | Route | Methods | Descrition |
@@ -54,6 +55,12 @@ Base URL : [RECYCOOL](http://recycool-id.et.r.appspot.com/)
 | /recycool/<unique_id>    | GET    | Retrieve a specific data using a GET request.    |
 | /recycool/<unique_id>    | DELETE    | Delete specific data.    |
 
+###  Endpoints 
 
+POST `/recycool` - Submit an image and perform image classification.
+
+#### Request 
+- Method : POST
+- Path : /recycool
 
 

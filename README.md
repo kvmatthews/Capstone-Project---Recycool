@@ -48,7 +48,7 @@ then click on the link it provides.
 ## API Documentation
 
 ### Summary
-Base URL : [RECYCOOL](http://recycool-id.et.r.appspot.com/)
+Base URL : [RECYCOOL](http://recycool-id.et.r.appspot.com/) / http://recycool-id.et.r.appspot.com/
 
 Using [Postman](https://www.postman.com/) for testing APIs.
 

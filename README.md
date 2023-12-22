@@ -16,4 +16,15 @@ Using Flask to build an API for a machine learning image classification model. T
  ```
  flask run
  ```
+### Deployment
+#### Enable Google App Engine Admin API
+ 1. In the left Navigation menu, click APIs & Services > Library.
+ 2. Type "App Engine Admin API" in the search box.
+ 3. Click the App Engine Admin API card.
+ 4. Click Enable.
+#### Deploy to App Engine
+ 1. Setting up region, you can find your region here https://cloud.google.com/compute/docs/regions-zones?hl=id
+```
+gcloud config set compute/region "REGION"
+```
 

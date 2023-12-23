@@ -33,7 +33,7 @@ Inside [Google Cloud Platform (GCP)](https://console.cloud.google.com/welcome)
 
  1. Setting up region, you can find your region here https://cloud.google.com/compute/docs/regions-zones?hl=id
 ```
-gcloud config set compute/region "REGION"
+gcloud app create --region="REGION"
 ```
  2. Deploy project
 ```
